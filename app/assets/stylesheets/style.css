@@ -10,7 +10,7 @@ body, html {
 	  transparent 99%, rgba(215,204,200,.7) 99%, rgba(215,204,200,.7) 100%),
 	 linear-gradient(transparent, transparent 25%, rgba(215,204,200,.4) 25%, rgba(215,204,200,.4) 26%, transparent 26%,
 	  transparent 50%, rgba(215,204,200,.4) 50%, rgba(215,204,200,.4) 51%, transparent 51%,
-	  transparent 75%, rgba(215,204,200,.4) 75%, rgba(215,204,200,.4) 76%, transparent 76%, transparent 100%),
+	  transparent 75%, rgba(39, 26, 22, 0.4) 75%, rgba(215,204,200,.4) 76%, transparent 76%, transparent 100%),
 	 linear-gradient(90deg, transparent, transparent 25%, rgba(215,204,200,.4) 25%, rgba(215,204,200,.4) 26%, transparent 26%,
 	  transparent 50%, rgba(215,204,200,.4) 50%, rgba(215,204,200,.4) 51%, transparent 51%,
 	  transparent 75%, rgba(215,204,200,.4) 75%, rgba(215,204,200,.4) 76%, transparent 76%, transparent 100%);
@@ -37,7 +37,7 @@ header {
 .row {
  
   width: 100%;
-  padding-top: 50px;
+  padding-top: 75px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
