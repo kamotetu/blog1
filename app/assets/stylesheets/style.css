@@ -1,0 +1,216 @@
+body, html {
+  height: 100%;
+  /* background-color: rgba(238, 233, 204, 0.76); */
+  background-color: #FFFDE7;
+	background-size: 80px 80px;
+	background-image:
+	 linear-gradient(rgba(215,204,200,.7) 1%, rgba(215,204,200,.7) 1%, transparent 1%,
+	  transparent 99%, rgba(215,204,200,.7) 99%, rgba(215,204,200,.7) 100%),
+	 linear-gradient(90deg, rgba(215,204,200,.7) 1%, rgba(215,204,200,.7) 1%, transparent 1%,
+	  transparent 99%, rgba(215,204,200,.7) 99%, rgba(215,204,200,.7) 100%),
+	 linear-gradient(transparent, transparent 25%, rgba(215,204,200,.4) 25%, rgba(215,204,200,.4) 26%, transparent 26%,
+	  transparent 50%, rgba(215,204,200,.4) 50%, rgba(215,204,200,.4) 51%, transparent 51%,
+	  transparent 75%, rgba(215,204,200,.4) 75%, rgba(215,204,200,.4) 76%, transparent 76%, transparent 100%),
+	 linear-gradient(90deg, transparent, transparent 25%, rgba(215,204,200,.4) 25%, rgba(215,204,200,.4) 26%, transparent 26%,
+	  transparent 50%, rgba(215,204,200,.4) 50%, rgba(215,204,200,.4) 51%, transparent 51%,
+	  transparent 75%, rgba(215,204,200,.4) 75%, rgba(215,204,200,.4) 76%, transparent 76%, transparent 100%);
+}
+
+h1, h2, h3, h4, h5, h6, p, body {
+  margin: 0;
+  padding: 0;
+}
+
+.success {
+  margin-top: 100px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+}
+
+.contents h3 {
+  text-align: center;
+}
+
+.row {
+ 
+  width: 100%;
+  padding-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 660px;
+  *zoom: 1;
+}
+
+.container {
+  /* position: absolute; */
+
+  width: 100%;
+  margin: 50px 0;
+  padding: 50px 0;
+  box-shadow: 0 0 10px rgba(41, 41, 41, 0.2);
+  /* background-color: rgb(230, 240, 245); */
+  background-color: #dedede;
+	background-image:
+	 linear-gradient(#ecebeb 50%, transparent 50%, transparent);
+	background-size: 10px 10px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 15px;
+}
+
+/* form input[type="submit"] {
+  margin: 0 auto;
+  text-align: center;
+} */
+
+.contents h3 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 15px #FF6694;
+  font-size: 58px;
+  font-family: 'Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4', sans-serif;
+}
+
+a.brand-logo.center {
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 15px #FF6694;
+  font-size: 58px;
+  font-family: 'Hiragino Maru Gothic Pro','ヒラギノ丸ゴ Pro W4', sans-serif;
+}
+
+/* input {
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+  background-color: #8cbbf0;
+  /* margin: 5px auto 15px; */
+  /* padding: 10px;
+  margin: 0 auto;
+  border: 1px solid #D8D8D8;
+  border-radius: 5px;
+  font-family: "游ゴシック", "YuGothic"; */
+
+form textarea {
+  background: #f0f7ff;
+  height: 300px;
+  width: 100%;
+  margin: 25px 0 15px;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  font-family: "游ゴシック", "YuGothic";
+}
+
+.content_post {
+  padding: 8px 19px;
+  margin: 2em 0;
+  color: #2c2c2f;
+  background-color: #dedede;
+	background-image:
+	 linear-gradient(#ecebeb 50%, transparent 50%, transparent);
+	background-size: 10px 10px;
+  /* background: #cde4ff; */
+  border-top: solid 5px #5989cf;
+  border-bottom: solid 5px #5989cf;
+}
+
+h2 {
+  font-family: impact;
+}
+
+.under {
+  background: linear-gradient(transparent 70%, #ff99ab 70%);
+}
+
+.content_post p {
+  font-style: italic;
+}
+
+.text_box {
+  padding: 10px;
+  margin: 10px;
+  background: #f0f7ff;
+  border: dashed 2px #5b8bd0;
+  word-wrap:break-all;
+}
+
+.destroy_box {
+  float: left;
+  width: 26px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f0e68c;
+  color:#000000;
+  font-size: 80% ;
+  border-radius: 2px 2px 2px 2px;
+  padding: auto ;
+  margin-left : 2px;
+  margin-right: 2px;
+  vertical-align: 3%;
+  background-color:  #fafad2; 
+  box-shadow: 1px 1px 5px rgba(20,20,20,0.2);
+}
+
+.destroy_box2 {
+  float: left;
+  width: 26px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f0e68c;
+  color:#000000;
+  font-size: 80% ;
+  border-radius: 2px 2px 2px 2px;
+  padding: auto ;
+  margin-left : 2px;
+  margin-right: 2px;
+  vertical-align: 3%;
+  background-color:  #fafad2; 
+  box-shadow: 1px 1px 5px rgba(20,20,20,0.2);
+}
+
+/* .destroy_box li {
+  display: inline;
+} */
+
+h2 {
+  text-align: center;
+}
+
+.container h2, input {
+  display: inline;
+  width: 400px;
+  background: #dfefff;
+  box-shadow: 0px 0px 0px 5px #dfefff;
+  border: dashed 1px #96c2fe;
+  color: #454545;
+  border-radius: 15px;
+}
+
+.actions {
+  text-align: center;
+}
+
+.success {
+  text-align: center;
+}
+
+.success h2 {
+  display: inline;
+  width: 400px;
+  background: #dfefff;
+  box-shadow: 0px 0px 0px 5px #dfefff;
+  border: dashed 1px #96c2fe;
+  /* padding: 0.2em 0.5em; */
+  color: #454545;
+}
+
+.success p a {
+  
+  margin-top: 100px;
+}

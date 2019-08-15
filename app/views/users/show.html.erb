@@ -1,0 +1,23 @@
+<div class="contents row" >
+  <p><%= @nickname %>さんのブログ一覧</p>
+  <% @blogs.each do |blog| %>
+  <div class="content_post" >
+    <div style="float:left;">
+    <span class="under">作成者:<%= blog.user.nickname %></span>
+    <% if user_signed_in? && current_user.id == blog.user_id %>
+          <div class="destroy_box">
+          <%= link_to '削除', "/blogs/#{blog.id}", method: :delete %>
+          </div>
+          <div class="destroy_box2">
+          <%= link_to '編集', "/blogs/#{blog.id}/edit", method: :get %>
+          </div>
+        <% end %>
+    </div>
+    <br style="clear:both;"/>
+      <div class="text_box">
+        <p><%= blog.text %></p>
+      </div>
+  </div>
+  <% end %>
+  <%= paginate(@blogs) %>
+</div>
